@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haris Khalil - Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #fff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #ffc107;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+    }
+
+    header p.subtitle {
+      margin-top: 5px;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    main {
+      padding: 25px;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 5px solid #f44336;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      color: #c62828;
+      border-bottom: 2px solid #f44336;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .skills, .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill, .lang {
+      background: #007bff;
+      color: white;
+      padding: 7px 14px;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .email-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      background: #28a745;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: 0.3s ease;
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    .email-button:hover {
+      background: #218838;
+      transform: scale(1.05);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e3c72;
+      color: white;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.3rem;
+      }
+      .skill, .lang {
+        font-size: 0.8rem;
+      }
+      .email-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://i.ibb.co/fzJcc7pk/IMG-20231123-071446.jpg" alt="Haris Khalil">
+    <h1>Haris Khalil</h1>
+    <p class="subtitle">Motivated Computer Science Student | Future Network Engineer</p>
+  </header>
+
+  <main>
+    <div class="contact-info">
+      📍 Karak, KP &nbsp; | &nbsp; 📧 hariskhan01020@gmail.com
+    </div>
+
+    <section>
+      <h2>🏆 Objective</h2>
+      <p>Motivated and hardworking Computer Science student currently in the 5th semester at the University of Peshawar. Passionate about Networking and Cybersecurity, with a strong interest in network configuration, troubleshooting, and information security. Eager to apply technical skills in real-world environments and gain practical experience in securing systems, managing networks, and implementing IT infrastructure solutions.</p>
+    </section>
+
+    <section>
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>BS Computer Science</strong>, University of Peshawar (2023 – Present) | CGPA: 3.0</li>
+        <li><strong>F.Sc Pre-Medical</strong>, Chokara Science College (2022) | Percentage: 90.18%</li>
+        <li><strong>Matriculation (Science)</strong>, Chokara Science College (2020) | Percentage: 91.36%</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💻 Technical Skills</h2>
+      <div class="skills">
+        <div class="skill">MS Office</div>
+        <div class="skill">Basic Computer Networking</div>
+        <div class="skill">Beginner Web Development</div>
+        <div class="skill">Basic Video Editing</div>
+        <div class="skill">Typing Speed</div>
+        <div class="skill">Canva Designing</div>
+        <div class="skill">Cybersecurity (Beginner Level)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧑‍💻 Academic Projects</h2>
+      <ul>
+        <li><strong>Computer Networking Project:</strong> Simulated a small office network using Cisco Packet Tracer with routers, switches, IP configuration, and connectivity troubleshooting.</li>
+        <li><strong>Cybersecurity Awareness Project:</strong> Created a beginner-level awareness campaign on phishing, password safety, and safe internet browsing using simple HTML/CSS infographics.</li>
+        <li><strong>College Admission Website:</strong> Developed using HTML, CSS, JavaScript to handle student registration forms and store data locally.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Computer Hardware Basics — Cisco Networking Academy</li>
+        <li>Basic Computer Networking — Cisco Networking Academy</li>
+        <li>JavaScript Essentials — Cisco Networking Academy</li>
+        <li>Python Essentials — Cisco Networking Academy</li>
+        <li>Cybersecurity (Beginner Level) — Cisco Networking Academy</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📌 Personal Details</h2>
+      <ul>
+        <li>Father’s Name: Khalil Ur Rehman</li>
+        <li>Date of Birth: 01-01-2004</li>
+        <li>Address: Karak, Khyber Pakhtunkhwa</li>
+        <li>Nationality: Pakistani</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌐 Languages</h2>
+      <div class="languages">
+        <div class="lang">Pashto (Native)</div>
+        <div class="lang">Urdu (Fluent)</div>
+        <div class="lang">English (Fluent)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💬 References</h2>
+      <p>Will be provided upon request.</p>
+    </section>
+
+    <a class="email-button" href="mailto:hariskhan01020@gmail.com">📧 Contact by Email</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Haris Khalil | All Rights Reserved
+  </footer>
+</body>
+</html>
